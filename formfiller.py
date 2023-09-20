@@ -14,6 +14,7 @@ phone_number = "your-phone-number"
 ##May 10, 2003-> "05102003"
 birthday = "your birthday"
 try:
+    ##find path of chromedriver on your computer
     driver = webdriver.Chrome(executable_path="/Users/arnavarora/Downloads/chromedriver-4")
     driver.get(url)
     time.sleep(2)
